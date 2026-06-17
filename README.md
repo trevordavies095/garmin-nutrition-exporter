@@ -18,9 +18,7 @@ No server, no Garmin API keys, and no account linking — it runs entirely in yo
 
 **Option A — hosted installer (easiest)**
 
-Once this repo is published, open the installer page and drag the button to your bookmarks bar:
-
-`https://<your-github-username>.github.io/garmin-nutrition-exporter/installer.html`
+Open the [installer page](https://trevordavies095.github.io/garmin-nutrition-exporter/installer.html) and drag the button to your bookmarks bar.
 
 **Option B — local installer**
 
@@ -62,33 +60,10 @@ After changing `bookmarklet.js`, regenerate the installer:
 node build-installer.mjs
 ```
 
-## GitHub setup
+## Links
 
-**Recommended repo name:** [`garmin-nutrition-exporter`](https://github.com/new)
-
-Clear, searchable, and describes exactly what the project does. Good alternatives if you want to be more specific:
-
-| Name | Notes |
-|------|-------|
-| `garmin-nutrition-exporter` | **Recommended** — short and descriptive |
-| `garmin-connect-nutrition-bookmarklet` | Emphasizes it's a bookmarklet, not an API integration |
-| `garmin-nutrition-bookmarklet` | Shorter variant |
-
-### Publish the repo
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Garmin Connect nutrition export bookmarklet"
-gh repo create garmin-nutrition-exporter --public --source=. --push
-```
-
-### Enable GitHub Pages (optional, for a hosted installer)
-
-1. Repo **Settings → Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `main`, folder: `/ (root)`
-4. Your installer will be at `https://<username>.github.io/garmin-nutrition-exporter/installer.html`
+- **Installer:** [trevordavies095.github.io/garmin-nutrition-exporter/installer.html](https://trevordavies095.github.io/garmin-nutrition-exporter/installer.html)
+- **Repository:** [github.com/trevordavies095/garmin-nutrition-exporter](https://github.com/trevordavies095/garmin-nutrition-exporter)
 
 ## Troubleshooting
 
